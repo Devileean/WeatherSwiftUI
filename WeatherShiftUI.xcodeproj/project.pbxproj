@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49ED5C9728AAD7870095F3F0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ED5C9628AAD7870095F3F0 /* LoginView.swift */; };
 		49EEBA0C28AAC64A0099D423 /* WeatherShiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBA0B28AAC64A0099D423 /* WeatherShiftUIApp.swift */; };
-		49EEBA0E28AAC64A0099D423 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBA0D28AAC64A0099D423 /* ContentView.swift */; };
 		49EEBA1028AAC64D0099D423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBA0F28AAC64D0099D423 /* Assets.xcassets */; };
 		49EEBA1328AAC64D0099D423 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBA1228AAC64D0099D423 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49ED5C9628AAD7870095F3F0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		49EEBA0828AAC64A0099D423 /* WeatherShiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherShiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49EEBA0B28AAC64A0099D423 /* WeatherShiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherShiftUIApp.swift; sourceTree = "<group>"; };
-		49EEBA0D28AAC64A0099D423 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49EEBA0F28AAC64D0099D423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49EEBA1228AAC64D0099D423 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,9 +52,9 @@
 			isa = PBXGroup;
 			children = (
 				49EEBA0B28AAC64A0099D423 /* WeatherShiftUIApp.swift */,
-				49EEBA0D28AAC64A0099D423 /* ContentView.swift */,
 				49EEBA0F28AAC64D0099D423 /* Assets.xcassets */,
 				49EEBA1128AAC64D0099D423 /* Preview Content */,
+				49ED5C9628AAD7870095F3F0 /* LoginView.swift */,
 			);
 			path = WeatherShiftUI;
 			sourceTree = "<group>";
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49EEBA0E28AAC64A0099D423 /* ContentView.swift in Sources */,
+				49ED5C9728AAD7870095F3F0 /* LoginView.swift in Sources */,
 				49EEBA0C28AAC64A0099D423 /* WeatherShiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
