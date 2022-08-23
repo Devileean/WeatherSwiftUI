@@ -84,7 +84,7 @@ struct LoginView: View {
 
 //MARK: ContentView_Previews
 
-struct ContentView_Previews: PreviewProvider {
+struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
         LoginView()
     }
